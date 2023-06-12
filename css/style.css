@@ -292,3 +292,30 @@ button {
     position: static;
 }
 
+
+.details-box {
+  box-shadow: rgb(145 7 69 / 75%) -7px 0px 4px -2px;
+  background-color: #291d4a;
+  border-radius: 9px;
+  min-height: 4.5em;
+  
+}
+
+.c6 {
+  color: #0fcfcb;
+}
+
+.details-select {
+  border-bottom: 2px solid #dc098b;
+}
+
+.details-select:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #09dcbf;
+}
+
+.details-select-click {
+  border-bottom: 2px solid #09dcbf;
+}
+
+

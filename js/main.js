@@ -1,5 +1,10 @@
 $('document').ready(() => {
 
+  $('.details-select').on('click', function(e) {
+    $('.details-select').removeClass('details-select-click');
+    $(this).addClass('details-select-click');
+  });
+
   $('#statistics').on('change', function() {
     let chart = parseInt(this.value);
 
@@ -11,6 +16,8 @@ $('document').ready(() => {
       order_status();
     }
 
+
+  
     
   });
 
